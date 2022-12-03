@@ -9,8 +9,6 @@ import (
 	"mkrup.com/skl-calendar/event/parser"
 	"mkrup.com/skl-calendar/fetcher"
 	"mkrup.com/skl-calendar/server"
-	// "mkrup.com/skl-calendar/event/parser"
-	// "mkrup.com/skl-calendar/fetcher"
 )
 
 func refresh(c *cache.Cache) error {
