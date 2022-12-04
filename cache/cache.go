@@ -10,6 +10,7 @@ type Cache struct {
 	mu sync.RWMutex
 
 	// protected by mu
+	// TODO: the cache could support multiple teams in the future
 	events []event.Event 
 }
 
